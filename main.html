@@ -4,66 +4,70 @@
   <meta charset="UTF-8">
   <title>Movie Gallery</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <style>
     .img-col {
-      padding: 2px;
+      padding: 5px;
     }
-    img {
-      width: 100%;
+    .img-col img {
+      width: 100px;
       height: 100px;
       object-fit: cover;
+      display: block;
+      margin: 0 auto;
     }
   </style>
 </head>
 <body>
 
   <div class="container-fluid">
-
+    
     <!-- First Row: 12 images (col-sm-1) -->
     <div class="row">
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-1 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-1 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
     </div>
 
     <!-- Second Row: 6 images (col-sm-2) -->
     <div class="row">
-      <div class="col-sm-2 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-2 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-2 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-2 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-2 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-2 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
+      <div class="col-sm-2 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-2 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-2 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-2 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-2 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-2 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
     </div>
 
     <!-- Third Row: 3 images (col-sm-4) -->
     <div class="row">
-      <div class="col-sm-4 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-4 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
-      <div class="col-sm-4 img-col"><img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt=""></div>
+      <div class="col-sm-4 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-4 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
+      <div class="col-sm-4 img-col"><img src="https://goswift.in/img/logo.png" alt="Movie"></div>
     </div>
 
     <!-- Fourth Row: 1 image (col-sm-12) -->
     <div class="row">
-      <div class="col-sm-12 img-col">
-        <img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=500&auto=format&fit=crop&q=60" alt="">
+      <div class="col-sm-12 img-col text-center">
+        <img src="https://goswift.in/img/logo.png" alt="Movie">
       </div>
     </div>
 
   </div>
 
-  <!-- Bootstrap JS -->
+  <!-- Bootstrap JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
